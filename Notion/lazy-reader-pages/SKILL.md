@@ -1,11 +1,11 @@
 ---
-name: research-pages
-description: Turn research, analysis, or review work into a Notion page a busy person will actually read. Covers framing, collapsible structure with numbered toggles, concise human language, and the Notion markdown and API details that bite. Use when publishing a study, guide, process document, runbook, or assessment to Notion.
+name: lazy-reader-pages
+description: Write Notion pages for a reader who will not read them. Turns research, analysis, or review work into a page that looks short, reveals its shape at a glance, and expands on demand. Covers framing, collapsible structure with numbered toggles, concise human language, and the Notion markdown and API details that bite. Use when publishing a study, guide, process document, runbook, or assessment to Notion.
 ---
 
-# Research pages in Notion
+# Pages for lazy readers
 
-A long research document nobody opens is worth nothing. Aim for a page that looks short on arrival, reveals its shape at a glance, and lets the reader expand only what they need. Every rule below serves that.
+Assume the reader will not read the page. They will skim the titles, decide whether it applies to them, and open one section at most. Research nobody opens is worth nothing, so design for the skimmer: a page that looks short on arrival, reveals its shape at a glance, and expands only where the reader chooses. Every rule below serves that.
 
 ## Frame it before writing
 
