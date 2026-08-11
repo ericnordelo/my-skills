@@ -1,0 +1,47 @@
+{
+  "name": "ericnordelo-skills",
+  "owner": {
+    "name": "Eric Nordelo",
+    "url": "https://github.com/ericnordelo"
+  },
+  "description": "Reusable skills for Codex and Claude Code.",
+  "version": "0.1.0",
+  "plugins": [
+    {
+      "name": "en-canton",
+      "source": "./plugins/en-canton",
+      "displayName": "Canton Design Review",
+      "description": "Review Canton designs for correctness, security, operability, upgradeability, and future compatibility.",
+      "category": "development",
+      "tags": [
+        "canton",
+        "architecture",
+        "design-review"
+      ]
+    },
+    {
+      "name": "en-github",
+      "source": "./plugins/en-github",
+      "displayName": "GitHub Documentation Framing",
+      "description": "Review repository documentation so it presents current purpose, behavior, and user value directly.",
+      "category": "development",
+      "tags": [
+        "github",
+        "documentation",
+        "review"
+      ]
+    },
+    {
+      "name": "en-notion",
+      "source": "./plugins/en-notion",
+      "displayName": "Notion Lazy Reader Pages",
+      "description": "Turn research and process documents into concise, skimmable Notion pages that expand on demand.",
+      "category": "productivity",
+      "tags": [
+        "notion",
+        "writing",
+        "documentation"
+      ]
+    }
+  ]
+}

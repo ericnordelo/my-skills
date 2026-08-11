@@ -1,0 +1,44 @@
+{
+  "name": "ericnordelo-skills",
+  "interface": {
+    "displayName": "Eric Nordelo Skills"
+  },
+  "plugins": [
+    {
+      "name": "en-canton",
+      "source": {
+        "source": "local",
+        "path": "./plugins/en-canton"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "en-github",
+      "source": {
+        "source": "local",
+        "path": "./plugins/en-github"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "en-notion",
+      "source": {
+        "source": "local",
+        "path": "./plugins/en-notion"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

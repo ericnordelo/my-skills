@@ -1,0 +1,33 @@
+{
+  "name": "en-github",
+  "version": "0.1.0",
+  "description": "Review repository documentation so it presents current purpose, behavior, and user value directly.",
+  "author": {
+    "name": "Eric Nordelo",
+    "url": "https://github.com/ericnordelo"
+  },
+  "homepage": "https://github.com/ericnordelo/my-skills",
+  "repository": "https://github.com/ericnordelo/my-skills",
+  "keywords": [
+    "github",
+    "documentation",
+    "review"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "GitHub Documentation Framing",
+    "shortDescription": "Make repository docs current, direct, and user-focused.",
+    "longDescription": "Review READMEs, guides, and doc comments for obsolete change narration, negative definitions, and maintainer-oriented framing.",
+    "developerName": "Eric Nordelo",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/ericnordelo/my-skills",
+    "defaultPrompt": [
+      "Review this README for user-focused framing.",
+      "Rewrite obsolete change narration as current documentation."
+    ]
+  }
+}

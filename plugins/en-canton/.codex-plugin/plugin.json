@@ -1,0 +1,33 @@
+{
+  "name": "en-canton",
+  "version": "0.1.0",
+  "description": "Review Canton designs for correctness, security, operability, upgradeability, and future compatibility.",
+  "author": {
+    "name": "Eric Nordelo",
+    "url": "https://github.com/ericnordelo"
+  },
+  "homepage": "https://github.com/ericnordelo/my-skills",
+  "repository": "https://github.com/ericnordelo/my-skills",
+  "keywords": [
+    "canton",
+    "architecture",
+    "design-review"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Canton Design Review",
+    "shortDescription": "Review Canton designs against a rigorous checklist.",
+    "longDescription": "Find material issues in Canton architecture proposals across terminology, authorization, package vetting, atomicity, upgrades, and operations.",
+    "developerName": "Eric Nordelo",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/ericnordelo/my-skills",
+    "defaultPrompt": [
+      "Review this Canton design and return actionable findings.",
+      "Check this proposal for Canton correctness and operational risks."
+    ]
+  }
+}

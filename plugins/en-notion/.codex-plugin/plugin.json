@@ -1,0 +1,33 @@
+{
+  "name": "en-notion",
+  "version": "0.1.0",
+  "description": "Turn research and process documents into concise, skimmable Notion pages that expand on demand.",
+  "author": {
+    "name": "Eric Nordelo",
+    "url": "https://github.com/ericnordelo"
+  },
+  "homepage": "https://github.com/ericnordelo/my-skills",
+  "repository": "https://github.com/ericnordelo/my-skills",
+  "keywords": [
+    "notion",
+    "writing",
+    "documentation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Notion Lazy Reader Pages",
+    "shortDescription": "Build Notion pages that reveal their shape at a glance.",
+    "longDescription": "Structure studies, guides, runbooks, and assessments for skimmers with concise framing, numbered toggles, and verified Notion markup.",
+    "developerName": "Eric Nordelo",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/ericnordelo/my-skills",
+    "defaultPrompt": [
+      "Turn this research into a skimmable Notion page.",
+      "Restructure this page for a reader who will only skim it."
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "en-canton",
+  "version": "0.1.0",
+  "description": "Review Canton designs for correctness, security, operability, upgradeability, and future compatibility.",
+  "author": {
+    "name": "Eric Nordelo",
+    "url": "https://github.com/ericnordelo"
+  },
+  "homepage": "https://github.com/ericnordelo/my-skills",
+  "repository": "https://github.com/ericnordelo/my-skills"
+}

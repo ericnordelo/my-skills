@@ -1,0 +1,11 @@
+{
+  "name": "en-github",
+  "version": "0.1.0",
+  "description": "Review repository documentation so it presents current purpose, behavior, and user value directly.",
+  "author": {
+    "name": "Eric Nordelo",
+    "url": "https://github.com/ericnordelo"
+  },
+  "homepage": "https://github.com/ericnordelo/my-skills",
+  "repository": "https://github.com/ericnordelo/my-skills"
+}

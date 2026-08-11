@@ -1,0 +1,11 @@
+{
+  "name": "en-notion",
+  "version": "0.1.0",
+  "description": "Turn research and process documents into concise, skimmable Notion pages that expand on demand.",
+  "author": {
+    "name": "Eric Nordelo",
+    "url": "https://github.com/ericnordelo"
+  },
+  "homepage": "https://github.com/ericnordelo/my-skills",
+  "repository": "https://github.com/ericnordelo/my-skills"
+}
