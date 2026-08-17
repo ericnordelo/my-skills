@@ -44,11 +44,20 @@ Example:
 
 - Replace "800 lines of production code implement all 6 CIP-056 on-ledger interfaces. 36 tests cover transfer lifecycle, allocation/DvP, defragmentation, and 20 security invariants" with "The implementation supports all six CIP-056 on-ledger interfaces, including transfers, allocation and delivery-versus-payment workflows, and defragmentation." Describe relevant security guarantees separately in terms users can rely on.
 
+## Use direct and parallel headings
+
+- Prefer concise noun phrases for concepts, responsibilities, guarantees, risks, and boundaries.
+- Prefer direct verb phrases for lifecycle steps and procedures.
+- Avoid indirect nominal-clause headings beginning with "What," "Why," "How," or "When" unless the document intentionally follows a consistent FAQ or question-and-answer format.
+- Rewrite reader-oriented constructions as direct subject labels: "What Bidders Must Trust" becomes "Bidder Trust Assumptions," "How Settlement Works" becomes "Settlement Lifecycle," and "What Happens on Failure" becomes "Failure Recovery."
+- Keep sibling headings grammatically parallel. Do not mix questions, noun phrases, and procedural commands at the same heading level without a content-driven reason.
+
 ## Review workflow
 
 1. Read the relevant code and nearby documentation closely enough to identify the current behavior and purpose.
 2. Find statements that depend on knowledge of an obsolete previous state. Rewrite them so they stand alone.
 3. Find statements that define a thing by exclusion or negation. Replace them with its positive responsibility or behavior where correctness is preserved.
 4. Identify the artifact's intended users. Replace maintainer or reviewer evidence with the capability, workflow, or guarantee those users need.
-5. Verify that each rewrite remains accurate for the current repository.
-6. Keep edits targeted. Do not expand the review into a general documentation rewrite unless another issue prevents the framing from being corrected accurately.
+5. Review the heading hierarchy for direct phrasing and grammatical parallelism.
+6. Verify that each rewrite remains accurate for the current repository.
+7. Keep edits targeted. Do not expand the review into a general documentation rewrite unless another issue prevents the framing from being corrected accurately.
