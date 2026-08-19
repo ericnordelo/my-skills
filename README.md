@@ -1,12 +1,20 @@
-# Eric Nordelo Skills
+# My Most-Used Skills
 
-A marketplace of my reusable skills for Codex and Claude Code.
+A small collection of reusable skills for Codex and Claude Code.
 
-Browse the [available plugins and skills](PLUGINS.md).
+This repository is a marketplace of skills provided through plugins. Each plugin groups skills by domain, such as GitHub, Notion, or Canton, so you can install only what you use.
 
-## Usage
+## Skills
 
-Install the `en-github` plugin:
+| Domain | Plugin | Skill | Purpose |
+| --- | --- | --- | --- |
+| GitHub | `en-github` | [`review-doc-framing`](plugins/en-github/skills/review-doc-framing/) | Keeps repository docs current, direct, and user-focused. |
+| Notion | `en-notion` | [`lazy-reader-pages`](plugins/en-notion/skills/lazy-reader-pages/) | Creates concise Notion pages for skimmers. |
+| Canton | `en-canton` | [`design-review`](plugins/en-canton/skills/design-review/) | Checks proposals for correctness, security, upgrades, and operations. |
+
+## Install
+
+Add this marketplace, then install a plugin from the list above. Replace `en-github` with the plugin you want.
 
 ```bash
 # Codex
@@ -18,14 +26,16 @@ claude plugin marketplace add ericnordelo/my-skills
 claude plugin install en-github@ericnordelo-skills
 ```
 
-Run the skill:
+## Use
+
+Agents can select an installed skill automatically. To invoke one directly:
 
 ```text
 # Codex
-Use review-doc-framing to improve this README.
+$en-github:review-doc-framing Review this README.
 
 # Claude Code
-/en-github:review-doc-framing
+/en-github:review-doc-framing Review this README.
 ```
 
 [MIT License](LICENSE)
