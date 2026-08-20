@@ -1,0 +1,34 @@
+{
+  "name": "en-x",
+  "version": "0.1.0",
+  "description": "Format original X posts, replies, and quote posts in Eric Nordelo's concise, natural voice.",
+  "author": {
+    "name": "Eric Nordelo",
+    "url": "https://github.com/ericnordelo"
+  },
+  "homepage": "https://github.com/ericnordelo/my-skills",
+  "repository": "https://github.com/ericnordelo/my-skills",
+  "keywords": [
+    "x",
+    "twitter",
+    "writing"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "X Post Formatting",
+    "shortDescription": "Format concise X posts without flattening your voice.",
+    "longDescription": "Format original X posts, replies, and quote posts with light-touch editing, specific claims, and no generic engagement language.",
+    "developerName": "Eric Nordelo",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/ericnordelo/my-skills",
+    "defaultPrompt": [
+      "Format this draft as an original X post.",
+      "Write a specific reply to this X post.",
+      "Format this quote post around my new claim."
+    ]
+  }
+}

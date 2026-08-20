@@ -1,0 +1,4 @@
+interface:
+  display_name: "Format X Posts"
+  short_description: "Format specific X posts in Eric's natural voice."
+  default_prompt: "Use $format-x-posts to format this draft for X."

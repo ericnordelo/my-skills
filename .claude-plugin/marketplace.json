@@ -42,6 +42,18 @@
         "writing",
         "documentation"
       ]
+    },
+    {
+      "name": "en-x",
+      "source": "./plugins/en-x",
+      "displayName": "X Post Formatting",
+      "description": "Format original X posts, replies, and quote posts in Eric Nordelo's concise, natural voice.",
+      "category": "productivity",
+      "tags": [
+        "x",
+        "twitter",
+        "writing"
+      ]
     }
   ]
 }

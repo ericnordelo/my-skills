@@ -11,6 +11,7 @@ This repository is a marketplace of skills provided through plugins. Each plugin
 | GitHub | `en-github` | [`review-doc-framing`](plugins/en-github/skills/review-doc-framing/) | Keeps repository docs current, direct, and user-focused. |
 | Notion | `en-notion` | [`lazy-reader-pages`](plugins/en-notion/skills/lazy-reader-pages/) | Creates concise Notion pages for skimmers. |
 | Canton | `en-canton` | [`design-review`](plugins/en-canton/skills/design-review/) | Checks proposals for correctness, security, upgrades, and operations. |
+| X | `en-x` | [`format-x-posts`](plugins/en-x/skills/format-x-posts/) | Formats original posts, replies, and quote posts in Eric's natural voice. |
 
 ## Install
 
