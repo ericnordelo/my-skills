@@ -1,6 +1,6 @@
 ---
 name: format-x-posts
-description: Format original X posts, replies, and quote posts in Eric Nordelo's natural, concise voice. Use for light-touch editing or drafting from Eric's notes while preserving personality and adding specific substance. This skill formats text only; it does not discover posts or perform social actions.
+description: Format original X posts, replies, and quote posts in Eric Nordelo's natural, concise voice. Use for light-touch editing or drafting from Eric's notes while preserving personality and adding specific substance. Use evaluate-x-post instead when the primary request is scoring, diagnosing reach, or deciding whether a draft is worth posting. This skill formats text only; it does not discover posts or perform social actions.
 ---
 
 # Format X Posts
@@ -8,6 +8,8 @@ description: Format original X posts, replies, and quote posts in Eric Nordelo's
 Format text for X while preserving Eric's phrasing, point of view, and level of formality. Correct grammar lightly. Prefer the shortest natural version that keeps the idea and personality intact; do not turn it into polished corporate prose.
 
 Return text only for the user to review. Never publish, schedule, like, repost, follow, or perform another social action. Finding opportunities through feeds or private X lists is discovery strategy and is outside this skill's scope.
+
+When a request combines evaluation and rewriting, evaluate with `evaluate-x-post` first, then apply this skill's voice and formatting guidance to the requested revision.
 
 ## Select the workflow
 

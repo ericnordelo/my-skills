@@ -1,7 +1,7 @@
 {
   "name": "en-x",
-  "version": "0.1.0",
-  "description": "Format original X posts, replies, and quote posts in Eric Nordelo's concise, natural voice.",
+  "version": "0.2.0",
+  "description": "Format and evaluate X posts in Eric Nordelo's concise, natural voice using current ranking context.",
   "author": {
     "name": "Eric Nordelo",
     "url": "https://github.com/ericnordelo"

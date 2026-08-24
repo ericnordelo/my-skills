@@ -1,0 +1,4 @@
+interface:
+  display_name: "Evaluate X Post"
+  short_description: "Score X drafts and improve qualified reach."
+  default_prompt: "Use $evaluate-x-post to score this X draft and identify the highest-impact improvement."
