@@ -1,0 +1,18 @@
+Daml Development Skill
+
+The initial technical reference material and portions of the skill guidance are
+adapted from CF-Daml-Skill:
+
+  https://github.com/canton-network-devs/CF-Daml-Skill
+  Upstream revision: 0f75d4f7cf92eecddb5087e2bf992271802ed4b2
+  Upstream package author: Canton Foundation Developer Relations
+
+The upstream package declares the Apache License, Version 2.0. A copy of that
+license is included in this directory.
+
+The material was repackaged for the en-canton Codex and Claude Code plugin,
+renamed to daml-development, given progressive reference routing and UI metadata,
+and revised to make project-version grounding, current-source verification, code
+review, and execution-backed validation explicit.
+
+Modifications Copyright 2026 Eric Nordelo.

@@ -1,7 +1,7 @@
 {
   "name": "en-canton",
-  "version": "0.1.0",
-  "description": "Review Canton designs for correctness, security, operability, upgradeability, and future compatibility.",
+  "version": "0.2.0",
+  "description": "Develop, review, debug, and test Daml smart contracts for Canton Network.",
   "author": {
     "name": "Eric Nordelo",
     "url": "https://github.com/ericnordelo"
@@ -10,14 +10,16 @@
   "repository": "https://github.com/ericnordelo/my-skills",
   "keywords": [
     "canton",
-    "architecture",
-    "design-review"
+    "daml",
+    "smart-contracts",
+    "authorization",
+    "testing"
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Canton Design Review",
-    "shortDescription": "Review Canton designs against a rigorous checklist.",
-    "longDescription": "Find material issues in Canton architecture proposals across terminology, authorization, package vetting, atomicity, upgrades, and operations.",
+    "displayName": "Canton Daml Development",
+    "shortDescription": "Build and review correct Daml smart contracts.",
+    "longDescription": "Develop, review, debug, and test Daml contracts with grounded guidance for authorization, privacy, lifecycle, multi-party workflows, and version-aware Canton tooling.",
     "developerName": "Eric Nordelo",
     "category": "Developer Tools",
     "capabilities": [
@@ -26,8 +28,9 @@
     ],
     "websiteURL": "https://github.com/ericnordelo/my-skills",
     "defaultPrompt": [
-      "Review this Canton design and return actionable findings.",
-      "Check this proposal for Canton correctness and operational risks."
+      "Review this Daml contract for authorization and privacy issues.",
+      "Design and test a multi-party Daml workflow.",
+      "Debug this Daml build or transaction failure."
     ]
   }
 }

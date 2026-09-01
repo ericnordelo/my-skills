@@ -10,13 +10,14 @@
     {
       "name": "en-canton",
       "source": "./plugins/en-canton",
-      "displayName": "Canton Design Review",
-      "description": "Review Canton designs for correctness, security, operability, upgradeability, and future compatibility.",
+      "displayName": "Canton Daml Development",
+      "description": "Develop, review, debug, and test Daml smart contracts for Canton Network.",
       "category": "development",
       "tags": [
         "canton",
-        "architecture",
-        "design-review"
+        "daml",
+        "smart-contracts",
+        "development"
       ]
     },
     {

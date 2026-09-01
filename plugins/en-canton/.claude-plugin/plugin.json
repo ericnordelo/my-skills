@@ -1,7 +1,7 @@
 {
   "name": "en-canton",
-  "version": "0.1.0",
-  "description": "Review Canton designs for correctness, security, operability, upgradeability, and future compatibility.",
+  "version": "0.2.0",
+  "description": "Develop, review, debug, and test Daml smart contracts for Canton Network.",
   "author": {
     "name": "Eric Nordelo",
     "url": "https://github.com/ericnordelo"
